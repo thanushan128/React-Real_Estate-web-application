@@ -1,7 +1,9 @@
-
+import { Header } from "./components/Header/Header";
 function App() {
   return (
-    <span>This is real state web</span>
+    <div className="App">
+      <Header />
+    </div>
   );
 }
 
